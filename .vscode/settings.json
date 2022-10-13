@@ -1,0 +1,14 @@
+{
+	"editor.fontSize": 12,
+	"editor.formatOnSave": true,
+	"css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "stylelint.validate": [ "css", "scss"],
+	"[scss]": {
+		"editor.formatOnSave": false,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.stylelint": true
+		}
+	}
+}
